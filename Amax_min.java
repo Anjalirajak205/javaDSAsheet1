@@ -1,4 +1,4 @@
-
+// question 1/50
 public class Amax_min {
     public static void main(String[] args) {
         int[] arr={60,1,89,5,3,6};

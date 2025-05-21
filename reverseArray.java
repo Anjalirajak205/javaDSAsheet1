@@ -1,4 +1,4 @@
-
+// question 2/50
 //for user input
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+// question 5/50
 public class NegativePositive {
     public static void main(String[] args) {
         int [] arr ={-1,-5,4,0,-6};
