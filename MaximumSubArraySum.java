@@ -1,6 +1,6 @@
 // 8/50 questions
 
-public class Kadane_Algorithm {
+public class MaximumSubArraySum {
     
     public static void main(String[] args) {
         
