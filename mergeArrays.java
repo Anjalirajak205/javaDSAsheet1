@@ -4,33 +4,33 @@ public class mergeArrays {
         int n = arr1.length;
         int m = arr2.length;
 
-        for (int i = 0; i < n; i++) {
-            
-            if (arr1[i] > arr2[0]) {
-                // Swap
+        int i = n-1 ;
+        int j = 0 ;
+
+        while(i>=0 && j<m){
+            if(arr1[i]>arr2[j]){
                 int temp = arr1[i];
-                arr1[i] = arr2[0];
-                arr2[0] = temp;
-
-                int first = arr2[0];
-                int k;
-                for (k = 1; k < m && arr2[k] < first; k++) {
-                    arr2[k - 1] = arr2[k];
-                }
-                arr2[k - 1] = first;
+                arr1[i]=arr2[j];
+                arr2[j]=temp;
             }
+            i--;
+            j++;
+            }
+            Arrays.sort(arr1);
+            Arrays.sort(arr2);
         }
-    }
-   public static void main(String[] args) {
-        int[] arr1 = {1,3,8,20,35};
-        int[] arr2 = {2, 3, 9};
+        public static void main(String[] args) {
+            int[] arr1 = {1,3,6,8,9,18};
+            int[] arr2 ={0,2,4,7};
 
-        merge(arr1, arr2);
+            merge(arr1,arr2);
+            System.out.println("Merged arr1:"+Arrays.toString(arr1));
+            System.out.println("Merged arr2:"+Arrays.toString(arr2));
+        }
+        
+        }
 
-        System.out.println("Array 1: " + Arrays.toString(arr1));
-        System.out.println("Array 2: " + Arrays.toString(arr2));
-    }
-}
+
 
 
 
