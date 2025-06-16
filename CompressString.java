@@ -1,3 +1,6 @@
+// quest 31/50..
+// 16 june 
+
 public class CompressString {
     public static void main(String[] args) {
         String str ="hhheeelllooo ";
