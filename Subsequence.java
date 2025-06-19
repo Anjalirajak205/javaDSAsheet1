@@ -1,4 +1,4 @@
-// quest 19/50..
+// quest 35/50..
 // 19 june .
 
 public class Subsequence {
