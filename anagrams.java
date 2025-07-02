@@ -3,7 +3,6 @@
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class anagrams {
     public static void main(String[] args) {
         String str1 = "listen";
