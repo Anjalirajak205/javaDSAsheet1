@@ -9,7 +9,6 @@ public static void main(String[] args) {
     int n = sc.nextInt();
     printSnakePattern(n);
 }
-
 public static void printSnakePattern(int n) {
     int num = 1;
     for (int i = 0; i < n; i++) {
