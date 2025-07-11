@@ -30,8 +30,7 @@ public static int maximalRectangle(char[][] matrix) {
                     curLeft = j + 1;
                 }
             }
-
-            for (int j = n - 1; j >= 0; j--) {
+           for (int j = n - 1; j >= 0; j--) {
                 if (matrix[i][j] == '1')
                     right[j] = Math.min(right[j], curRight);
                 else {
